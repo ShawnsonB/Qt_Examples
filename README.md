@@ -21,10 +21,15 @@ To build and run these examples, you will need:
 The repository is organized as follows:
 
 Qt_Examples/
+
 ├── CMakeLists.txt # Root CMake file to add subdirectories
-├── XML_Attributes/ 
+
+├── XML_Attributes/
+
 ├── XML_Items/ 
+
 ├── (More example directories later...)
+
 └── README.md # This file
 
 *   The root `CMakeLists.txt` primarily uses `add_subdirectory()` to include the example directories.
